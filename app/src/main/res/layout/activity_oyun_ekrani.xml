@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OyunEkrani">
+
+    <android.widget.GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="412dp"
+        android:layout_height="486dp"
+        android:layout_marginTop="8dp"
+        android:columnCount="4"
+        android:rowCount="4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="412dp"
+        android:layout_height="261dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/oyunekranı_isim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="TextView"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/skor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Skor:" />
+
+        <TextView
+            android:id="@+id/hata"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hata:" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
