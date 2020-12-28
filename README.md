@@ -1,3 +1,3 @@
 # MemoryGame
-Hafıza Oyunu
-(4x4) 16 tane karttan oluşan kartların eşini bulmaya dayalı , Android Studio'da Javayla yazılmış geliştirilme aşamasında olan bir hafıza oyunu. 
+Memory Game
+(4x4) A memory game under development, written in Java in Android Studio, based on finding the match of 16 cards.
